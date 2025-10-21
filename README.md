@@ -76,23 +76,28 @@ The osTicket application files were deployed by unzipping osTicket-v1.15.8.zip a
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+  
+<h2>Step 5: osTicket Web Installer Execution and Configuration</h2>
 
-<h2>Step 5: osTicket Web Installer Execution and Configuration<h2/>
 
 
 
 
+With all prerequisites met, the osTicket web installer was successfully launched. Prior to completing the installation, the ost-sampleconfig.php file within the osTicket\include directory was renamed to ost-config.php, and its file permissions were temporarily elevated to allow the installer to write to it. The helpdesk name, administrator account details, and the previously created database connection settings (Database: osTicket, Username: root, Password: root) were then entered into the installer, culminating in the final "Install Now!" action.
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+  
+<h2>Step 6: Post-Installation Security and Verification</h2>
 
-<h2>Step 6: Post-Installation Security and Verification<h2/>
 
 
-
+To finalize the installation and secure the application, the setup directory located at C:\inetpub\wwwroot\osTicket\setup was promptly deleted. Additionally, the file permissions on C:\inetpub\wwwroot\osTicket\include\ost-config.php were reverted to a more secure "Read-only" state. Finally, successful login to the osTicket staff portal at http://localhost/osTicket/scp/login.php confirmed the complete and secure deployment of the help desk system.
 </p>
 <br />
 
