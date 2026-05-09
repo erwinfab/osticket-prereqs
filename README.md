@@ -35,7 +35,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 **Step 1**: VM Provisioning & Environment Setup
 I began by creating an Azure Virtual Machine named "osticket-vm" with the username "labuser". Once the environment was live, I accessed it via Remote Desktop and downloaded the `osTicket-Installation-Files.zip` directly to the desktop.
 
-To prepare the web environment, I navigated to Windows Features and enabled Internet Information Services (IIS), specifically ensuring the CGI box was checked under Application Development Features.
+* To prepare the web environment, I navigated to Windows Features and enabled Internet Information Services (IIS), specifically ensuring the CGI box was checked under Application Development Features.
 
 
 
