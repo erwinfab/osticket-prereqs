@@ -1,14 +1,13 @@
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 
-
 ## osTicket - Prerequisites and Installation
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 # Executive Summary
 This project demonstrates the end-to-end installation and configuration of osTicket, an open-source support ticket system. I provisioned a **Windows 10 Virtual Machine** in **Microsoft Azure**, configured **Internet Information Services (IIS) as the web server**, and managed a **MySQL database** to host the platform.
 
-## Environments and Technologies Used
+# Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
@@ -18,7 +17,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 
 - Windows 10</b> (21H2)
 
-## Environments and Technologies Used
+# Environments and Technologies Used
 
 - Internet Information Services (IIS) with CGI enabled
 - PHP Manager for IIS (v1.5.0)
@@ -34,7 +33,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 
 
 **Step 1**: VM Provisioning & Environment Setup
-I began by creating an Azure Virtual Machine named "osticket-vm" with the username "labuser". Once the environment was live, I accessed it via Remote Desktop and downloaded the osTicket-Installation-Files.zip directly to the desktop.
+I began by creating an Azure Virtual Machine named "osticket-vm" with the username "labuser". Once the environment was live, I accessed it via Remote Desktop and downloaded the `osTicket-Installation-Files.zip` directly to the desktop.
 
 To prepare the web environment, I navigated to Windows Features and enabled Internet Information Services (IIS), specifically ensuring the CGI box was checked under Application Development Features.
 
