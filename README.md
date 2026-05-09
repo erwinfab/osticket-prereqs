@@ -1,24 +1,24 @@
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+
+## osTicket - Prerequisites and Installation
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+# Executive Summary
+This project demonstrates the end-to-end installation and configuration of osTicket, an open-source support ticket system. I provisioned a **Windows 10 Virtual Machine** in **Microsoft Azure**, configured **Internet Information Services (IIS) as the web server**, and managed a **MySQL database** to host the platform.
 
-
-
-<h2>Environments and Technologies Used</h2>
+## Environments and Technologies Used
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+# Operating Systems Used
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+## Environments and Technologies Used
 
 - Internet Information Services (IIS) with CGI enabled
 - PHP Manager for IIS (v1.5.0)
@@ -27,16 +27,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL Server v5.5.62
 
 
-<h2>Installation Steps</h2>
+## Installation Steps
 
-<p>
+
 <img width="407" height="303" alt="image" src="https://github.com/user-attachments/assets/51a40b59-af45-47cc-9dd2-f72701f4ad28" /> <img width="727" height="479" alt="image" src="https://github.com/user-attachments/assets/eb6ee987-e9f1-437e-9f37-1b87366f3c60" />
-</p>
 
-<h2>Step 1: VM Setup and File Preparation</h2>
-First, provision an Azure Virtual Machine with Windows 10 (e.g., osticket-vm ) and log in via Remote Desktop. Once inside the VM, download and unzip the osTicket-Installation-Files.zip folder to your desktop. This folder contains all the necessary installers and files for the lab.
-</p>
-<br />
+
+**Step 1**: VM Provisioning & Environment Setup
+I began by creating an Azure Virtual Machine named "osticket-vm" with the username "labuser". Once the environment was live, I accessed it via Remote Desktop and downloaded the osTicket-Installation-Files.zip directly to the desktop.
+
+To prepare the web environment, I navigated to Windows Features and enabled Internet Information Services (IIS), specifically ensuring the CGI box was checked under Application Development Features.
+
+
 
 <p>
 <img width="369" height="388" alt="image" src="https://github.com/user-attachments/assets/692d9ba3-2e89-4e68-a417-65b9fdc035b9" /> <img width="282" height="241" alt="image" src="https://github.com/user-attachments/assets/fe5910f9-8548-4159-8c2d-d0ab74e13f10" />
