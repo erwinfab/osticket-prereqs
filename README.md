@@ -57,7 +57,6 @@ From the installation folder, I installed several critical backend components:
 
 
 
-</p>
 ---
 
 
@@ -69,7 +68,6 @@ From the installation folder, I installed several critical backend components:
 
 
 
-</p>
 ---
 
   
@@ -87,7 +85,7 @@ I then navigated to `C:\inetpub\wwwroot\osTicket\include` and renamed `ost-sampl
 
 
 
-</p>
+
 ---
 
   
