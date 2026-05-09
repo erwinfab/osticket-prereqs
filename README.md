@@ -40,7 +40,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 
 
 
-<p>
+---
 
 
 **Step 2**: **Installing Dependencies & Prerequisites**
