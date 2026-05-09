@@ -41,7 +41,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 
 
 </p>
-
+---
 
 
 **Step 2**: **Installing Dependencies & Prerequisites**
@@ -59,7 +59,7 @@ From the installation folder, I installed several critical backend components:
 
 
 </p>
-
+---
 
 
 **Step 3**: **MySQL Configuration & osTicket Deployment**
@@ -71,7 +71,7 @@ From the installation folder, I installed several critical backend components:
 
 
 </p>
-
+---
 
   
 **Step 4**: **PHP Extensions & File Permissions**
@@ -89,7 +89,7 @@ I then navigated to `C:\inetpub\wwwroot\osTicket\include` and renamed `ost-sampl
 
 
 </p>
-
+---
 
   
 **Step 5**: **Database Creation & Finalization**
