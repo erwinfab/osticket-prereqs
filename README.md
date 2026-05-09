@@ -32,8 +32,9 @@ This project demonstrates the end-to-end installation and configuration of osTic
 <img width="407" height="303" alt="image" src="https://github.com/user-attachments/assets/51a40b59-af45-47cc-9dd2-f72701f4ad28" /> <img width="727" height="479" alt="image" src="https://github.com/user-attachments/assets/eb6ee987-e9f1-437e-9f37-1b87366f3c60" />
 
 
-**Step 1**: *VM Provisioning & Environment Setup*
-I began by creating an Azure Virtual Machine named "osticket-vm" with the username "labuser". Once the environment was live, I accessed it via Remote Desktop and downloaded the `osTicket-Installation-Files.zip` directly to the desktop.
+**Step 1**: **VM Provisioning & Environment Setup**
+
+* I began by creating an Azure Virtual Machine named "osticket-vm" with the username "labuser". Once the environment was live, I accessed it via Remote Desktop and downloaded the `osTicket-Installation-Files.zip` directly to the desktop.
 
 * To prepare the web environment, I navigated to Windows Features and enabled Internet Information Services (IIS), specifically ensuring the CGI box was checked under Application Development Features.
 
@@ -51,10 +52,11 @@ I began by creating an Azure Virtual Machine named "osticket-vm" with the userna
 
 
 
-</p>
 
 
-**Step 2**: *Installing Dependencies & Prerequisites*
+
+**Step 2**: **Installing Dependencies & Prerequisites**
+
 From the installation folder, I installed several critical backend components:
 
 * **PHP Manager for IIS**: Installed `PHPManagerForIIS_V1.5.0.msi` to manage PHP versions within the web server.
@@ -74,13 +76,14 @@ From the installation folder, I installed several critical backend components:
 
 
 
-</p>
+
 
   
-**Step 3**: *MySQL Configuration & osTicket Deployment*
-I installed **MySQL 5.5.62** using the **Typical Setup**. During the Configuration Wizard, I chose the **Standard Configuration** and set both the username and password to **"root"**.
+**Step 3**: **MySQL Configuration & osTicket Deployment**
 
-Next, I unzipped the osTicket application and moved the **"upload"** folder to `C:\inetpub\wwwroot`, renaming the folder to **"osTicket"**.
+* I installed **MySQL 5.5.62** using the **Typical Setup**. During the Configuration Wizard, I chose the **Standard Configuration** and set both the username and password to **"root"**.
+
+* Next, I unzipped the osTicket application and moved the **"upload"** folder to `C:\inetpub\wwwroot`, renaming the folder to **"osTicket"**.
 
 
 <img width="293" height="186" alt="image" src="https://github.com/user-attachments/assets/8101ab98-2fdf-482f-9f23-6b1caa2fd19f" /> <img width="207" height="95" alt="image" src="https://github.com/user-attachments/assets/2d20ea54-ea7a-4d50-ac19-64f21d6b46c9" /> <img width="143" height="227" alt="image" src="https://github.com/user-attachments/assets/47777c10-8a95-464d-9c71-9618d04ca59e" />
@@ -96,6 +99,7 @@ Next, I unzipped the osTicket application and moved the **"upload"** folder to `
 
   
 **Step 4**: **PHP Extensions & File Permissions**
+
 * In **IIS Manager**, I navigated to the osTicket site and accessed the **PHP Manager**. I enabled three essential extensions to resolve common installation errors:
 
 * `php_imap.dll` (Required for email fetching)
@@ -106,7 +110,7 @@ Next, I unzipped the osTicket application and moved the **"upload"** folder to `
 
 I then navigated to `C:\inetpub\wwwroot\osTicket\include` and renamed `ost-sampleconfig.php` to `ost-config.php`. I modified the security settings for this file by **disabling inheritance**, removing all existing permissions, and granting **"Everyone" Full Control**.
 
-<p>
+
 <img width="220" height="148" alt="image" src="https://github.com/user-attachments/assets/7200852b-aa8b-46cf-8ddc-aac906ef8c2c" /> <img width="420" height="286" alt="image" src="https://github.com/user-attachments/assets/8a7b4b54-b83e-41c9-84eb-0bf721e09f56" /> <img width="280" height="149" alt="image" src="https://github.com/user-attachments/assets/c40e3319-c4bb-43d7-ba3f-9c946b61d7df" /> <img width="191" height="95" alt="image" src="https://github.com/user-attachments/assets/e23059f3-6631-4659-8401-e0a8d6721307" /> <img width="274" height="229" alt="image" src="https://github.com/user-attachments/assets/6ecef945-8a04-4e87-9531-5943e3f4acf7" />
 
 
@@ -114,17 +118,12 @@ I then navigated to `C:\inetpub\wwwroot\osTicket\include` and renamed `ost-sampl
 
 
 </p>
-<p>
+
   
-<h2>Step 5: Database Creation and Final Installation</h2>
+**Step 5**: **Database Creation & Finalization**
 
+* To provide a storage backend for the tickets, I installed **HeidiSQL** and created a new session using the **root** credentials. I then created a new database simply named **"osTicket"**.
 
-
-
-
-From the lab files, install HeidiSQL  and open it. Create a new session, connect using the root/root credentials , and create a new database named "osTicket". Now, return to the osTicket setup page in your browser and click "Continue". Fill in the required fields and enter the database details: osTicket (Database Name), root (MySQL Username), and root (MySQL Password) . Click "Install Now!".
-</p>
-<br />
-
+* Finally, I opened the web browser to `localhost/osTicket/setup`. I filled out the **Admin User** and **Helpdesk** information, linked the **osTicket** database, and clicked **Install Now** to complete the project.
   
 
