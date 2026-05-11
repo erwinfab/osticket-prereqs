@@ -33,6 +33,8 @@ This project demonstrates the end-to-end installation and configuration of osTic
 
 * To prepare the web environment, I navigated to Windows Features and enabled Internet Information Services (IIS), specifically ensuring the CGI box was checked under Application Development Features.
 
+<img width="962" height="503" alt="image" src="https://github.com/user-attachments/assets/48d0d7ed-b0df-4857-89df-86764754012f" />
+
 
 
 ---
