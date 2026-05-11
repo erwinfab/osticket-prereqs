@@ -13,7 +13,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 - **Internet Information Services** (IIS)
 
 ### Operating Systems Used
-- Windows 10 (21H2)
+- *Windows 10* (21H2)
 
 ### List of Prerequisites
 - **Internet Information Services (IIS)** with *CGI enabled*
