@@ -9,21 +9,21 @@ This project demonstrates the end-to-end installation and configuration of osTic
 
 ## Environments and Technologies Used
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- **Microsoft Azure** (Virtual Machines/Compute)
+- **Remote Desktop**
+- **Internet Information Services** (IIS)
 
 ## Operating Systems Used
 
-- Windows 10</b> (21H2)
+- Windows 10 (21H2)
 
 ## List of Prerequisites
 
-- Internet Information Services (IIS) with CGI enabled
-- PHP Manager for IIS (v1.5.0)
-- IIS Rewrite Module
-- PHP v7.3.8 and Visual C++ Redistributable
-- MySQL Server v5.5.62
+- **Internet Information Services (IIS)** with *CGI enabled*
+- **PHP Manager** for *IIS (v1.5.0)*
+- **IIS Rewrite Module**
+- **PHP v7.3.8** and **Visual C++ Redistributable**
+- **MySQL Server** v5.5.62
 
 ## Installation Steps
 
