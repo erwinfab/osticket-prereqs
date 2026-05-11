@@ -20,10 +20,10 @@ This project demonstrates the end-to-end installation and configuration of osTic
 ## List of Prerequisites
 
 - **Internet Information Services (IIS)** with *CGI enabled*
-- **PHP Manager** for *IIS (v1.5.0)*
+- **PHP Manager** for **IIS** *(v1.5.0)*
 - **IIS Rewrite Module**
-- **PHP v7.3.8** and **Visual C++ Redistributable**
-- **MySQL Server** v5.5.62
+- **PHP** *v7.3.8* and **Visual C++ Redistributable**
+- **MySQL Server** *v5.5.62*
 
 ## Installation Steps
 
