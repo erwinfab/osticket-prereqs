@@ -25,12 +25,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 - PHP v7.3.8 and Visual C++ Redistributable
 - MySQL Server v5.5.62
 
-
 ## Installation Steps
-
-
-
-
 
 **Step 1**: **VM Provisioning & Environment Setup**
 
