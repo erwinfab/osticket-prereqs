@@ -7,17 +7,17 @@
 ## Executive Summary
 This project demonstrates the end-to-end installation and configuration of osTicket, an open-source support ticket system. I provisioned a **Windows 10 Virtual Machine** in **Microsoft Azure**, configured **Internet Information Services (IIS) as the web server**, and managed a **MySQL database** to host the platform.
 
-## Environments and Technologies Used
+### Environments and Technologies Used
 
 - **Microsoft Azure** (Virtual Machines/Compute)
 - **Remote Desktop**
 - **Internet Information Services** (IIS)
 
-## Operating Systems Used
+### Operating Systems Used
 
 - Windows 10 (21H2)
 
-## List of Prerequisites
+### List of Prerequisites
 
 - **Internet Information Services (IIS)** with *CGI enabled*
 - **PHP Manager** for **IIS** *(v1.5.0)*
@@ -25,7 +25,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 - **PHP** *v7.3.8* and **Visual C++ Redistributable**
 - **MySQL Server** *v5.5.62*
 
-## Installation Steps
+### Installation Steps
 
 **Step 1**: **VM Provisioning & Environment Setup**
 
