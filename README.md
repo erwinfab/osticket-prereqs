@@ -4,7 +4,7 @@
 # osTicket - Prerequisites and Installation
 *This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.*
 
-## Executive Summary
+### Executive Summary
 This project demonstrates the end-to-end installation and configuration of osTicket, an open-source support ticket system. I provisioned a **Windows 10 Virtual Machine** in **Microsoft Azure**, configured **Internet Information Services (IIS) as the web server**, and managed a **MySQL database** to host the platform.
 
 ### Environments and Technologies Used
@@ -25,7 +25,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 - **PHP** *v7.3.8* and **Visual C++ Redistributable**
 - **MySQL Server** *v5.5.62*
 
-### Installation Steps
+## Installation Steps
 
 **Step 1**: **VM Provisioning & Environment Setup**
 
