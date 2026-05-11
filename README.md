@@ -33,6 +33,7 @@ This project demonstrates the end-to-end installation and configuration of osTic
 ---
 
 **Step 2**: **Installing Dependencies & Prerequisites**
+
 From the installation folder, I installed several critical backend components:
 
 * **PHP Manager for IIS**: Installed `PHPManagerForIIS_V1.5.0.msi` to manage PHP versions within the web server.
@@ -59,6 +60,7 @@ I then created a directory at `C:\PH` and unzipped the **PHP 7.3.8** files into 
 ---
 
 **Step 4**: **PHP Extensions & File Permissions**
+
 In **IIS Manager**, I navigated to the osTicket site and accessed the **PHP Manager**. I enabled three essential extensions to resolve common installation errors:
 
 * `php_imap.dll` (Required for email fetching)
